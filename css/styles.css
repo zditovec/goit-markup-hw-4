@@ -138,10 +138,12 @@ address{
 .effect-section{
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: url(../images/people-office\ 1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
         background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
+            max-width: 1440px;
+            margin: 0 auto;
 }
 .effect-title{
     color: #FFFFFF;
@@ -167,11 +169,12 @@ address{
     font-size: 16px;
     letter-spacing: 0.04em;
     margin:0 auto;
-    
     padding:16px 32px;
     min-width: 169px;
     height: 56px;
     border-radius:4px;
+    transition:cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms;
 }
 .effective-button:hover{
     background-color: #404BBF;
