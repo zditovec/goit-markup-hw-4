@@ -17,7 +17,8 @@ a{
     text-decoration: none;
 }
 header{
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 /* header */
 .container{
@@ -328,7 +329,19 @@ border: 1px solid var(--CLOUD, #F4F4FD);
     background-color: #4D5AE5;
     color: #F4F4FD;
     transform: translateY(100%);
-    
+    transition: transform 1s;
+}
+.overlay-info{
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        padding: 40px 32px 164px;
+}
+.product:hover .product-overlay{
+transform: translateY(0);
 }
 .media-list{
     color: #2E2F42;
