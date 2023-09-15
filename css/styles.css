@@ -348,6 +348,7 @@ border: 1px solid var(--CLOUD, #F4F4FD);
 }
 .product-image{
     position: relative;
+    overflow: hidden;
 }
 .product-overlay{
     position: absolute;
