@@ -138,12 +138,12 @@ address{
 .effect-section{
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.png);
-        background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
-            max-width: 1440px;
-            margin: 0 auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .effect-title{
     color: #FFFFFF;
@@ -173,8 +173,6 @@ address{
     min-width: 169px;
     height: 56px;
     border-radius:4px;
-    transition:cubic-bezier(0.4, 0, 0.2, 1);
-    background-color: 250ms;
 }
 .effective-button:hover{
     background-color: #404BBF;
@@ -243,9 +241,6 @@ address{
     gap: 24px;
     margin: 0;
     padding: 0;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-            0px 1px 1px rgba(46, 47, 66, 0.16),
-            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-human{
     background-color: #F4F4FD;
@@ -271,6 +266,9 @@ address{
     background-color: #FFFFFF;
     flex-basis:  calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .information-team{
     padding: 32px 0;
