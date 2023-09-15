@@ -47,7 +47,6 @@ header{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-nav{
     display: flex;
@@ -73,15 +72,16 @@ header{
 }
 .nav-link::after{
     color: #404bbf;
-    width: 48px;
-    height: 4px;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    background-color: #404bbf;
-    border-radius: 2px;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    content: "" ;
+        width: 48px;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        background-color: #404bbf;
+        border-radius: 2px;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        content: "";
+        
 }
 .nav-link:hover{
     color: #404bbf;
@@ -132,7 +132,7 @@ address{
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.02em;
-        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 }
 .item-mail:hover{
     color: #404bbf;
