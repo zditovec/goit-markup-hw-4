@@ -272,6 +272,11 @@ address{
 }
 .information-team{
     padding: 32px 0;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        flex-basis: calc((100% - 72px) / 4);
 }
 
 .list-work{
@@ -283,11 +288,7 @@ address{
     margin-bottom: 8px;
 }
 .social-ling{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
+    
 }
 .link-social{
     display: flex;
