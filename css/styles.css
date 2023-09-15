@@ -67,6 +67,7 @@ header{
     letter-spacing: 0.02em;
     padding: 24px 0;
     display: inline-block;
+    position: relative;
 }
 .nav-link:hover{
     color: #404bbf;
