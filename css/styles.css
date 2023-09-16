@@ -437,7 +437,7 @@ color: #4d5ae5;
     margin-bottom: 16px;
     display: inline-block;
     max-width: 264px;
-    
+       
     
 }
 .social-media-link{
@@ -450,6 +450,11 @@ color: #4d5ae5;
         letter-spacing: 0.32px;
 }
 .list-media-link{
-    display: flex;
     gap: 16px;
+}
+.footer-face{
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+    
 }
