@@ -366,6 +366,7 @@ border: 1px solid var(--CLOUD, #F4F4FD);
     position: relative;
     overflow: hidden;
 }
+
 .product-overlay{
     position: absolute;
         inset: 0;
@@ -383,8 +384,8 @@ border: 1px solid var(--CLOUD, #F4F4FD);
         letter-spacing: 0.32px;
         padding: 40px 32px 164px;
 }
-.product:hover .product-overlay{
-transform: translateY(0);
+.product:hover .product-overlay {
+    transform: translateY(0);
 }
 .media-list{
     color: #2E2F42;
