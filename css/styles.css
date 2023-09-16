@@ -323,16 +323,6 @@ address{
 .social-icons {
     display: inline-flex;
 }
-.social-icons{
-    width: 16px;
-    height: 16px;
-}
-
-
-
-
-
-
 
 .link-info-social:focus,
 .link-info-social:hover,
