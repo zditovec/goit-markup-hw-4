@@ -70,19 +70,20 @@ header{
     display: inline-block;
     position: relative;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
-.nav-link::after{
-    color: #404bbf;
-        width: 48px;
-        height: 4px;
-        position: absolute;
-        left: 0;
-        bottom: -1px;
-        background-color: #404bbf;
-        border-radius: 2px;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        content: ""; 
+.nav-link-current::after{
+    display: block;
+    transform: translate(0,20px);
+color: #404bbf;
+    width: 48px;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    content: "";
+
 }
 .nav-link:hover{
     color: #404bbf;
@@ -155,7 +156,7 @@ address{
 .effect-section{
     background-color: #2E2F42;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
