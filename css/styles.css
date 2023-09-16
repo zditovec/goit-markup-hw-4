@@ -318,10 +318,12 @@ address{
     background-color:#4d5ae5;
     border-radius: 50%;
     fill:#f4f4fd;
-     transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .social-icons {
     display: inline-flex;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-info-social:focus,
@@ -330,7 +332,7 @@ address{
 .link-info-social:focus .social-icons {
     background-color: #404bbf;
     fill:#f4f4fd;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .list-name {
