@@ -325,8 +325,10 @@ address{
 }
 .ink-link-social:hover{
     background-color: #404bbf;
+    background-color: #404bbf;
 }
 .ink-link-social:focus{
+    background-color: #404bbf;
     background-color: #404bbf;
 }
 .list-name {
