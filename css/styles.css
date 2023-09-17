@@ -399,17 +399,26 @@ border: 1px solid var(--CLOUD, #F4F4FD);
     line-height: 24px;
     letter-spacing: 0.32px;
     padding: 40px 32px;
+    position: absolute;
+        inset: 0;
+        background-color: #4D5AE5;
+        color: #F4F4FD;
+        transform: translateY(100%);
+        transition: transform 1s;
 }
-.product-overlay{
+
+/* .product-overlay {
     position: absolute;
     inset: 0;
     background-color: #4D5AE5;
     color: #F4F4FD;
     transform: translateY(100%);
     transition: transform 1s;
-}
-
-.product:hover .product-overlay {
+} */
+/* .product:hover .product-overlay {
+    transform: translateY(0);
+} */
+.product:hover .overlay-info {
     transform: translateY(0);
 }
 .media-list{
