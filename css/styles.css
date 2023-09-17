@@ -439,6 +439,24 @@ border: 1px solid var(--CLOUD, #F4F4FD);
     margin: 0;
     padding: 0;
 }
+.portfolio-list .info{
+    position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        padding: 40px 32px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        background-color: #4d5ae5;
+        transform: translateY(100%);
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* FOOTER */
 .footer-info{
     background-color:#2E2F42;
