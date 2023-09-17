@@ -387,11 +387,15 @@ address{
     width: calc((100% - 48px) / 3);
 }
 .list-name-page:hover{
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
-        transform:translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+        
 }
+.list-name-page:hover .overlay-info {
+    transform: translateY(0);
+
+}   
 .portfolio-list{
 border: 1px solid var(--CLOUD, #F4F4FD);
     background: var(--WHITE, #FFF);
@@ -416,10 +420,7 @@ border: 1px solid var(--CLOUD, #F4F4FD);
         color: #F4F4FD;
         transition: transform 1s;
 }
-.list-name-page:hover .overlay-info {
-    transform: translateY(0);
-    
-}
+
 .media-list{
     color: #2E2F42;
     font-weight: 500;
