@@ -383,6 +383,12 @@ address{
     margin-bottom: 8px;
     width: calc((100% - 48px) / 3);
 }
+.list-name-page:hover{
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+        transform:translateY(0%);
+}
 .portfolio-list{
 border: 1px solid var(--CLOUD, #F4F4FD);
     background: var(--WHITE, #FFF);
@@ -407,10 +413,11 @@ border: 1px solid var(--CLOUD, #F4F4FD);
         transition: transform 1s;
         transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
+        
 }
 .product:hover .overlay-info {
     transform: translateY(0);
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    
 }
 .media-list{
     color: #2E2F42;
