@@ -398,7 +398,6 @@ border: 1px solid var(--CLOUD, #F4F4FD);
 }
 .overlay-info {
     position: absolute;
-    padding: 40px 32px;
         top: 0;
         left: 0;
         width: 100%;
@@ -412,6 +411,8 @@ border: 1px solid var(--CLOUD, #F4F4FD);
         transition: transform 250ms linear;
         letter-spacing: 0.02em;
         line-height: 1.5;
+        padding: 40px 32px;
+        transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 .list-name-page:hover {
