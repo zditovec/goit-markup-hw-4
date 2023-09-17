@@ -391,7 +391,15 @@ border: 1px solid var(--CLOUD, #F4F4FD);
     position: relative;
     overflow: hidden;
 }
-
+.overlay-info {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    padding: 40px 32px;
+}
 .product-overlay{
     position: absolute;
     inset: 0;
@@ -400,15 +408,7 @@ border: 1px solid var(--CLOUD, #F4F4FD);
     transform: translateY(100%);
     transition: transform 1s;
 }
-.overlay-info{
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
-        padding: 40px 32px;
-}
+
 .product:hover .product-overlay {
     transform: translateY(0);
 }
