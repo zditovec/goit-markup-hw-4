@@ -416,7 +416,7 @@ border: 1px solid var(--CLOUD, #F4F4FD);
         color: #F4F4FD;
         transition: transform 1s;
 }
-.product:hover .overlay-info {
+.list-name-page:hover .overlay-info {
     transform: translateY(0);
     
 }
