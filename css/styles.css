@@ -71,6 +71,9 @@ header{
     position: relative;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.nav-after{
+    color: #404bbf;
+}
 
 .page-nav .nav-link{
 position: relative;
@@ -412,9 +415,6 @@ border: 1px solid var(--CLOUD, #F4F4FD);
         background-color: #4D5AE5;
         color: #F4F4FD;
         transition: transform 1s;
-        
-        
-        
 }
 .product:hover .overlay-info {
     transform: translateY(0);
