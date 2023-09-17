@@ -496,6 +496,7 @@ color: #4d5ae5;
     justify-content: center;
     align-items: center;
     gap: 16px;
+    
 }
 .icon-list-social{
     width: 40px;
@@ -510,6 +511,9 @@ color: #4d5ae5;
     align-items: center;
     justify-content: center;
     fill: #f4f4fd;
+    transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover{
     background-color: #31d0aa;
