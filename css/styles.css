@@ -509,6 +509,7 @@ color: #4d5ae5;
     border-radius:50%;
     align-items: center;
     justify-content: center;
+    fill: #f4f4fd;
 }
 .footer-link:hover{
     background-color: #31d0aa;
