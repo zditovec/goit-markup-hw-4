@@ -257,12 +257,9 @@ address{
     color: #434455;
 }
 .team{
-    background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin: 0;
-    padding: 0;
 }
 .team-human{
     background-color: #F4F4FD;
